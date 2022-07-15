@@ -15,7 +15,7 @@
 </script>
 
 <div class="modalWrapper">
-  <h1 class="text-3xl font-bold mb-5">Weapon Slot #{index + 1}</h1>
+  <h1 class="text-3xl font-bold mb-5">Equipment Slot #{index + 1}</h1>
   <div class="flex flex-row flex-wrap gap-2 ">
     {#each Object.entries(itemData) as [id, { name, image }]}
       <!-- prettier-ignore -->
