@@ -106,5 +106,87 @@
   "la_robba": {
     "name": "La Robba",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f0/Sprite-La_Robba.png"
+  },
+
+  "bloody_tear": {
+    "name": "Bloody Tear",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b8/Sprite-Bloody_Tear.png"
+  },
+  "holy_wand": {
+    "name": "Holy Wand",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/41/Sprite-Holy_Wand.png"
+  },
+  "thousand_edge": {
+    "name": "Thousand Edge",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e7/Sprite-Thousand_Edge.png"
+  },
+  "death_spiral": {
+    "name": "Death Spiral",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Sprite-Death_Spiral.png"
+  },
+  "heaven_sword": {
+    "name": "Heaven Sword",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/9f/Sprite-Heaven_Sword.png"
+  },
+  "unholy_vespers": {
+    "name": "Unholy Vespers",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/fd/Sprite-Unholy_Vespers.png"
+  },
+  "hellfire": {
+    "name": "Hellfire",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d5/Sprite-Hellfire.png"
+  },
+  "soul_eater": {
+    "name": "Soul Eater",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/88/Sprite-Soul_Eater.png"
+  },
+  "la_borra": {
+    "name": "La Borra",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/33/Sprite-La_Borra.png"
+  },
+  "no_future": {
+    "name": "NO FUTURE",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e2/Sprite-NO_FUTURE.png"
+  },
+  "thunder_loop": {
+    "name": "Thunder Loop",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/cf/Sprite-Thunder_Loop.png"
+  },
+  "gorgeous_moon": {
+    "name": "Gorgeous Moon",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/6f/Sprite-Gorgeous_Moon.png"
+  },
+  "vicious_hunger": {
+    "name": "Vicious Hunger",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/15/Sprite-Vicious_Hunger.png"
+  },
+  "mannajja": {
+    "name": "Mannajja",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/ef/Sprite-Mannajja.png"
+  },
+  "valkyrie_turner": {
+    "name": "Valkyrie Turner",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/da/Sprite-Valkyrie_Turner.png"
+  },
+  "infinite_corridor": {
+    "name": "Infinite Corridor",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/09/Sprite-Infinite_Corridor.png"
+  },
+  "crimson_shroud": {
+    "name": "Crimson Shroud",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/bc/Sprite-Crimson_Shroud.png"
+  },
+
+  "vandalier": {
+    "name": "Vandalier",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Vandalier.png"
+  },
+  "phieraggi": {
+    "name": "Phieraggi",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/64/Sprite-Phieraggi.png"
+  },
+  "fuwalafuwaloo": {
+    "name": "Fuwalafuwaloo",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/59/Sprite-Fuwalafuwaloo.png"
   }
 }
