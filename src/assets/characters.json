@@ -1,0 +1,335 @@
+{
+  "antonio_belpaese": {
+    "name": "Antonio Belpaese",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/65/Sprite-Antonio.png",
+    "startingWeapon": {
+      "id": "whip",
+      "name": "Whip",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b7/Sprite-Whip.png"
+    }
+  },
+  "imelda_belpaese": {
+    "name": "Imelda Belpaese",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/51/Sprite-Imelda.png",
+    "startingWeapon": {
+      "id": "magic_wand",
+      "name": "Magic Wand",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/14/Sprite-Magic_Wand.png"
+    }
+  },
+  "pasqualina_belpaese": {
+    "name": "Pasqualina Belpaese",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/aa/Sprite-Pasqualina.png",
+    "startingWeapon": {
+      "id": "runetracer",
+      "name": "Runetracer",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/36/Sprite-Runetracer.png"
+    }
+  },
+  "gennaro_belpaese": {
+    "name": "Gennaro Belpaese",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4a/Sprite-Gennaro.png",
+    "startingWeapon": {
+      "id": "knife",
+      "name": "Knife",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/12/Sprite-Knife.png"
+    }
+  },
+  "arca_ladonna": {
+    "name": "Arca Ladonna",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/04/Sprite-Arca.png",
+    "startingWeapon": {
+      "id": "fire_wand",
+      "name": "Fire Wand",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f1/Sprite-Fire_Wand.png"
+    }
+  },
+  "porta_ladonna": {
+    "name": "Porta Ladonna",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/49/Sprite-Porta.png",
+    "startingWeapon": {
+      "id": "lightning_ring",
+      "name": "Lightning Ring",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/09/Sprite-Lightning_Ring.png"
+    }
+  },
+  "lama_ladonna": {
+    "name": "Lama Ladonna",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b4/Sprite-Lama.png",
+    "startingWeapon": {
+      "id": "axe",
+      "name": "Axe",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/03/Sprite-Axe.png"
+    }
+  },
+  "poe_ratcho": {
+    "name": "Poe Ratcho",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/49/Sprite-Poe.png",
+    "startingWeapon": {
+      "id": "garlic",
+      "name": "Garlic",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/23/Sprite-Garlic.png"
+    }
+  },
+  "suor_clerici": {
+    "name": "Suor Clerici",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/13/Sprite-Clerici.png",
+    "startingWeapon": {
+      "id": "santa_water",
+      "name": "Santa Water",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0c/Sprite-Santa_Water.png"
+    }
+  },
+  "dommario": {
+    "name": "Dommario",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/be/Sprite-Dommario.png",
+    "startingWeapon": {
+      "id": "king_bible",
+      "name": "King Bible",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4e/Sprite-King_Bible.png"
+    }
+  },
+  "krochi_freetto": {
+    "name": "Krochi Freetto",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/ec/Sprite-Krochi.png",
+    "startingWeapon": {
+      "id": "cross",
+      "name": "Cross",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/db/Sprite-Cross.png"
+    }
+  },
+  "christine_davain": {
+    "name": "Christine Davain",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d8/Sprite-Christine.png",
+    "startingWeapon": {
+      "id": "pentagram",
+      "name": "Pentagram",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/69/Sprite-Pentagram.png"
+    }
+  },
+  "pugnala_provola": {
+    "name": "Pugnala Provola",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/3a/Sprite-Pugnala.png",
+    "startingWeapon": {
+      "id": ["phiera_der_tuphello", "eight_the_sparrow"],
+      "name": ["Phiera Der Tuphello", "Eight The Sparrow"],
+      "image": [
+        "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Phiera_Der_Tuphello.png",
+        "https://static.wikia.nocookie.net/vampire-survivors/images/1/16/Sprite-Eight_The_Sparrow.png"
+      ]
+    }
+  },
+  "giovanna_grana": {
+    "name": "Giovanna Grana",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7b/Sprite-Giovanna.png",
+    "startingWeapon": {
+      "id": "gatti_amari",
+      "name": "Gatti Amari",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/11/Sprite-Gatti_Amari.png"
+    }
+  },
+  "poppea_pecorina": {
+    "name": "Poppea Pecorina",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/25/Sprite-Poppea.png",
+    "startingWeapon": {
+      "id": "song_of_mana",
+      "name": "Song of Mana",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Song_of_Mana.png"
+    }
+  },
+  "concetta_caciotta": {
+    "name": "Concetta Caciotta",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/ba/Sprite-Concetta.png",
+    "startingWeapon": {
+      "id": "shadow_pinion",
+      "name": "Shadow Pinion",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/60/Sprite-Shadow_Pinion.png"
+    }
+  },
+  "mortaccio": {
+    "name": "Mortaccio",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/63/Sprite-Mortaccio.png",
+    "startingWeapon": {
+      "id": "bone",
+      "name": "Bone",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/3a/Sprite-Bone.png"
+    }
+  },
+  "yatta_cavallo": {
+    "name": "Yatta Cavallo",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/de/Sprite-Cavallo.png",
+    "startingWeapon": {
+      "id": "cherry_bomb",
+      "name": "Cherry Bomb",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e2/Sprite-Cherry_Bomb.png"
+    }
+  },
+  "bianca_ramba": {
+    "name": "Bianca Ramba",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/26/Sprite-Ramba.png",
+    "startingWeapon": {
+      "id": "carrello",
+      "name": "Carréllo",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/28/Sprite-Carr%C3%A9llo.png"
+    }
+  },
+  "o_sole_meeo": {
+    "name": "O'Sole Meeo",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7e/Sprite-O%27Sole.png",
+    "startingWeapon": {
+      "id": "celestial_dusting",
+      "name": "Celestial Dusting",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/a9/Sprite-Celestial_Dusting.png"
+    }
+  },
+  "sir_ambrojoe": {
+    "name": "Sir Ambrojoe",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/be/Sprite-Ambrojoe.png",
+    "startingWeapon": {
+      "id": "la_robba",
+      "name": "La Robba",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f0/Sprite-La_Robba.png"
+    }
+  },
+  "iguana_gallo_valletto": {
+    "name": "Iguana Gallo Valletto",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/1e/Sprite-Gallo.png",
+    "startingWeapon": {
+      "id": "clock_lancet",
+      "name": "Clock Lancet",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/35/Sprite-Clock_Lancet.png"
+    }
+  },
+  "divano_thelma": {
+    "name": "Divano Thelma",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/21/Sprite-Divano.png",
+    "startingWeapon": {
+      "id": "laurel",
+      "name": "Laurel",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/40/Sprite-Laurel.png"
+    }
+  },
+  "zi_assunta_belpaese": {
+    "name": "Zi'Assunta Belpaese",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d7/Sprite-Zi%27Assunta.png",
+    "startingWeapon": {
+      "id": "vento_sacro",
+      "name": "Vento Sacro",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/cd/Sprite-Vento_Sacro.png"
+    }
+  },
+  "exdash_exiviiq": {
+    "name": "Exdash Exiviiq",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/74/Sprite-Exdash.png",
+    "startingWeapon": {
+      "id": "ebony_wings",
+      "name": "Ebony Wings",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Ebony_Wings.png"
+    }
+  },
+  "tostie": {
+    "name": "Tostie",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/af/Sprite-Toastie.png",
+    "startingWeapon": {
+      "id": "peachone",
+      "name": "Peachone",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/5d/Sprite-Peachone.png"
+    }
+  },
+  "smith_iv": {
+    "name": "Smith IV",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f3/Sprite-Smith.png",
+    "startingWeapon": {
+      "id": "vandalier",
+      "name": "Vandalier",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Vandalier.png"
+    }
+  },
+  "boon_marrabbio": {
+    "name": "Boon Marrabbio",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/1f/Sprite-Marrabbio.png",
+    "startingWeapon": {
+      "id": "thousand_edge",
+      "name": "Thousand Edge",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e7/Sprite-Thousand_Edge.png"
+    }
+  },
+  "minnah_mannarah": {
+    "name": "Minnah Mannarah",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/8c/Sprite-Minnah.png",
+    "startingWeapon": {
+      "id": "bloody_tear",
+      "name": "Bloody Tear",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b8/Sprite-Bloody_Tear.png"
+    }
+  },
+  "leda": {
+    "name": "Leda",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f1/Sprite-Leda.png",
+    "startingWeapon": {
+      "id": "holy_wand",
+      "name": "Holy Wand",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/41/Sprite-Holy_Wand.png"
+    }
+  },
+  "peppino": {
+    "name": "Peppino",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Peppino.png",
+    "startingWeapon": {
+      "id": "soul_eater",
+      "name": "Soul Eater",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/88/Sprite-Soul_Eater.png"
+    }
+  },
+  "gains_boros": {
+    "name": "Gains Boros",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4d/Sprite-Gains.png",
+    "startingWeapon": {
+      "id": "heaven_sword",
+      "name": "Heaven Sword",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/9f/Sprite-Heaven_Sword.png"
+    }
+  },
+  "mask_of_the_red_death": {
+    "name": "Mask of the Red Death",
+    "category": "secret",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/ee/Sprite-Red_Death.png",
+    "startingWeapon": {
+      "id": "death_spiral",
+      "name": "Death Spiral",
+      "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Sprite-Death_Spiral.png"
+    }
+  }
+}
