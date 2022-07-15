@@ -2,136 +2,136 @@
   {
     "id": "whip",
     "name": "Whip",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b7/Sprite-Whip.png/revision/latest/scale-to-width-down/32?cb=20220308161150"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b7/Sprite-Whip.png"
   },
   {
     "id": "magic_wand",
     "name": "Magic Wand",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/14/Sprite-Magic_Wand.png/revision/latest/scale-to-width-down/32?cb=20220308161212"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/14/Sprite-Magic_Wand.png"
   },
   {
     "id": "knife",
     "name": "Knife",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/12/Sprite-Knife.png/revision/latest/scale-to-width-down/32?cb=20220610002103"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/12/Sprite-Knife.png"
   },
   {
     "id": "axe",
     "name": "Axe",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/03/Sprite-Axe.png/revision/latest/scale-to-width-down/32?cb=20220610142826"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/03/Sprite-Axe.png"
   },
   {
     "id": "cross",
     "name": "Cross",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/d/db/Sprite-Cross.png/revision/latest/scale-to-width-down/32?cb=20220308161412"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/d/db/Sprite-Cross.png"
   },
   {
     "id": "king_bible",
     "name": "King Bible",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4e/Sprite-King_Bible.png/revision/latest/scale-to-width-down/32?cb=20220308161439"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4e/Sprite-King_Bible.png"
   },
   {
     "id": "fire_wand",
     "name": "Fire Wand",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f1/Sprite-Fire_Wand.png/revision/latest/scale-to-width-down/32?cb=20220320150046"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f1/Sprite-Fire_Wand.png"
   },
   {
     "id": "garlic",
     "name": "Garlic",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/2/23/Sprite-Garlic.png/revision/latest/scale-to-width-down/32?cb=20220308161533"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/2/23/Sprite-Garlic.png"
   },
   {
     "id": "santa_water",
     "name": "Santa Water",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0c/Sprite-Santa_Water.png/revision/latest/scale-to-width-down/32?cb=20220508171449"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0c/Sprite-Santa_Water.png"
   },
   {
     "id": "runetracer",
     "name": "Runetracer",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/36/Sprite-Runetracer.png/revision/latest/scale-to-width-down/32?cb=20220308161733"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/36/Sprite-Runetracer.png"
   },
   {
     "id": "lightning_ring",
     "name": "Lightning Ring",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/09/Sprite-Lightning_Ring.png/revision/latest/scale-to-width-down/32?cb=20220308161622"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/0/09/Sprite-Lightning_Ring.png"
   },
   {
     "id": "pentagram",
     "name": "Pentagram",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/6/69/Sprite-Pentagram.png/revision/latest/scale-to-width-down/32?cb=20220308161744"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/6/69/Sprite-Pentagram.png"
   },
   {
     "id": "peachone",
     "name": "Peachone",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/5/5d/Sprite-Peachone.png/revision/latest/scale-to-width-down/32?cb=20220308161712"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/5/5d/Sprite-Peachone.png"
   },
   {
     "id": "ebony_wings",
     "name": "Ebony Wings",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Ebony_Wings.png/revision/latest/scale-to-width-down/32?cb=20220308161722"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Ebony_Wings.png"
   },
   {
     "id": "phiera_der_tuphello",
     "name": "Phiera Der Tuphello",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Phiera_Der_Tuphello.png/revision/latest/scale-to-width-down/32?cb=20220320150020"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Phiera_Der_Tuphello.png"
   },
   {
     "id": "eight_the_sparrow",
     "name": "Eight The Sparrow",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/16/Sprite-Eight_The_Sparrow.png/revision/latest/scale-to-width-down/32?cb=20220320150019"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/16/Sprite-Eight_The_Sparrow.png"
   },
   {
     "id": "gatti_amari",
     "name": "Gatti Amari",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/11/Sprite-Gatti_Amari.png/revision/latest/scale-to-width-down/32?cb=20220415165031"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/1/11/Sprite-Gatti_Amari.png"
   },
   {
     "id": "song_of_mana",
     "name": "Song of Mana",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Song_of_Mana.png/revision/latest/scale-to-width-down/32?cb=20220308161702"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/7/79/Sprite-Song_of_Mana.png"
   },
   {
     "id": "shadow_pinion",
     "name": "Shadow Pinion",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/6/60/Sprite-Shadow_Pinion.png/revision/latest/scale-to-width-down/32?cb=20220508172630"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/6/60/Sprite-Shadow_Pinion.png"
   },
   {
     "id": "clock_lancet",
     "name": "Clock Lancet",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/35/Sprite-Clock_Lancet.png/revision/latest/scale-to-width-down/32?cb=20220508170152"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/35/Sprite-Clock_Lancet.png"
   },
   {
     "id": "laurel",
     "name": "Laurel",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/4/40/Sprite-Laurel.png/revision/latest/scale-to-width-down/32?cb=20220308161804"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/4/40/Sprite-Laurel.png"
   },
   {
     "id": "vento_sacro",
     "name": "Vento Sacro",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/c/cd/Sprite-Vento_Sacro.png/revision/latest/scale-to-width-down/32?cb=20220610001941"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/c/cd/Sprite-Vento_Sacro.png"
   },
   {
     "id": "bone",
     "name": "Bone",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/3a/Sprite-Bone.png/revision/latest/scale-to-width-down/32?cb=20220308161813"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/3/3a/Sprite-Bone.png"
   },
   {
     "id": "cherry_bomb",
     "name": "Cherry Bomb",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e2/Sprite-Cherry_Bomb.png/revision/latest/scale-to-width-down/32?cb=20220308161828"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/e/e2/Sprite-Cherry_Bomb.png"
   },
   {
     "id": "carrello",
     "name": "Carréllo",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/2/28/Sprite-Carr%C3%A9llo.png/revision/latest/scale-to-width-down/32?cb=20220508172338"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/2/28/Sprite-Carr%C3%A9llo.png"
   },
   {
     "id": "celestial_dusting",
     "name": "Celestial Dusting",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/a/a9/Sprite-Celestial_Dusting.png/revision/latest/scale-to-width-down/32?cb=20220424191957"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/a/a9/Sprite-Celestial_Dusting.png"
   },
   {
     "id": "la_robba",
     "name": "La Robba",
-    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f0/Sprite-La_Robba.png/revision/latest/scale-to-width-down/32?cb=20220623191129"
+    "imageSource": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f0/Sprite-La_Robba.png"
   }
 ]
