@@ -12,7 +12,7 @@ export const selectedItems = writable(
   storedItems ? JSON.parse(storedItems) : defaultValue
 );
 export const selectedCharacter = writable(
-  storedCharacter ? JSON.parse(storedCharacter) : ''
+  storedCharacter ? JSON.parse(storedCharacter) : 'antonio_belpaese'
 );
 
 selectedWeapons.subscribe(
