@@ -1,6 +1,6 @@
 <script>
   import EquipmentBar from './lib/EquipmentBar.svelte';
-  import CharacterBox from './lib/ChracterBox.svelte';
+  import CharacterBox from './lib/CharacterBox.svelte';
 </script>
 
 <main>
