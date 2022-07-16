@@ -1,5 +1,6 @@
 {
   "antonio_belpaese": {
+    "id": "antonio_belpaese",
     "name": "Antonio Belpaese",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/65/Sprite-Antonio.png",
@@ -10,6 +11,7 @@
     }
   },
   "imelda_belpaese": {
+    "id": "imelda_belpaese",
     "name": "Imelda Belpaese",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/51/Sprite-Imelda.png",
@@ -20,6 +22,7 @@
     }
   },
   "pasqualina_belpaese": {
+    "id": "pasqualina_belpaese",
     "name": "Pasqualina Belpaese",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/aa/Sprite-Pasqualina.png",
@@ -30,6 +33,7 @@
     }
   },
   "gennaro_belpaese": {
+    "id": "gennaro_belpaese",
     "name": "Gennaro Belpaese",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4a/Sprite-Gennaro.png",
@@ -40,6 +44,7 @@
     }
   },
   "arca_ladonna": {
+    "id": "arca_ladonna",
     "name": "Arca Ladonna",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/04/Sprite-Arca.png",
@@ -50,6 +55,7 @@
     }
   },
   "porta_ladonna": {
+    "id": "porta_ladonna",
     "name": "Porta Ladonna",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/49/Sprite-Porta.png",
@@ -60,6 +66,7 @@
     }
   },
   "lama_ladonna": {
+    "id": "lama_ladonna",
     "name": "Lama Ladonna",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b4/Sprite-Lama.png",
@@ -70,6 +77,7 @@
     }
   },
   "poe_ratcho": {
+    "id": "poe_ratcho",
     "name": "Poe Ratcho",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/49/Sprite-Poe.png",
@@ -80,6 +88,7 @@
     }
   },
   "suor_clerici": {
+    "id": "suor_clerici",
     "name": "Suor Clerici",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/13/Sprite-Clerici.png",
@@ -90,6 +99,7 @@
     }
   },
   "dommario": {
+    "id": "dommario",
     "name": "Dommario",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/be/Sprite-Dommario.png",
@@ -100,6 +110,7 @@
     }
   },
   "krochi_freetto": {
+    "id": "krochi_freetto",
     "name": "Krochi Freetto",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/ec/Sprite-Krochi.png",
@@ -110,6 +121,7 @@
     }
   },
   "christine_davain": {
+    "id": "christine_davain",
     "name": "Christine Davain",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d8/Sprite-Christine.png",
@@ -120,6 +132,7 @@
     }
   },
   "pugnala_provola": {
+    "id": "pugnala_provola",
     "name": "Pugnala Provola",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/3a/Sprite-Pugnala.png",
@@ -133,6 +146,7 @@
     }
   },
   "giovanna_grana": {
+    "id": "giovanna_grana",
     "name": "Giovanna Grana",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7b/Sprite-Giovanna.png",
@@ -143,6 +157,7 @@
     }
   },
   "poppea_pecorina": {
+    "id": "poppea_pecorina",
     "name": "Poppea Pecorina",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/25/Sprite-Poppea.png",
@@ -153,6 +168,7 @@
     }
   },
   "concetta_caciotta": {
+    "id": "concetta_caciotta",
     "name": "Concetta Caciotta",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/ba/Sprite-Concetta.png",
@@ -163,6 +179,7 @@
     }
   },
   "mortaccio": {
+    "id": "mortaccio",
     "name": "Mortaccio",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/63/Sprite-Mortaccio.png",
@@ -173,6 +190,7 @@
     }
   },
   "yatta_cavallo": {
+    "id": "yatta_cavallo",
     "name": "Yatta Cavallo",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/de/Sprite-Cavallo.png",
@@ -183,6 +201,7 @@
     }
   },
   "bianca_ramba": {
+    "id": "bianca_ramba",
     "name": "Bianca Ramba",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/26/Sprite-Ramba.png",
@@ -193,6 +212,7 @@
     }
   },
   "o_sole_meeo": {
+    "id": "o_sole_meeo",
     "name": "O'Sole Meeo",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7e/Sprite-O%27Sole.png",
@@ -203,6 +223,7 @@
     }
   },
   "sir_ambrojoe": {
+    "id": "sir_ambrojoe",
     "name": "Sir Ambrojoe",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/be/Sprite-Ambrojoe.png",
@@ -213,6 +234,7 @@
     }
   },
   "iguana_gallo_valletto": {
+    "id": "iguana_gallo_valletto",
     "name": "Iguana Gallo Valletto",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/1e/Sprite-Gallo.png",
@@ -223,6 +245,7 @@
     }
   },
   "divano_thelma": {
+    "id": "divano_thelma",
     "name": "Divano Thelma",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/21/Sprite-Divano.png",
@@ -233,6 +256,7 @@
     }
   },
   "zi_assunta_belpaese": {
+    "id": "zi_assunta_belpaese",
     "name": "Zi'Assunta Belpaese",
     "category": "base",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d7/Sprite-Zi%27Assunta.png",
@@ -243,6 +267,7 @@
     }
   },
   "exdash_exiviiq": {
+    "id": "exdash_exiviiq",
     "name": "Exdash Exiviiq",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/74/Sprite-Exdash.png",
@@ -253,6 +278,7 @@
     }
   },
   "tostie": {
+    "id": "tostie",
     "name": "Tostie",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/af/Sprite-Toastie.png",
@@ -263,6 +289,7 @@
     }
   },
   "smith_iv": {
+    "id": "smith_iv",
     "name": "Smith IV",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f3/Sprite-Smith.png",
@@ -273,6 +300,7 @@
     }
   },
   "boon_marrabbio": {
+    "id": "boon_marrabbio",
     "name": "Boon Marrabbio",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/1f/Sprite-Marrabbio.png",
@@ -283,6 +311,7 @@
     }
   },
   "minnah_mannarah": {
+    "id": "minnah_mannarah",
     "name": "Minnah Mannarah",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/8c/Sprite-Minnah.png",
@@ -293,6 +322,7 @@
     }
   },
   "leda": {
+    "id": "leda",
     "name": "Leda",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f1/Sprite-Leda.png",
@@ -303,6 +333,7 @@
     }
   },
   "peppino": {
+    "id": "peppino",
     "name": "Peppino",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Peppino.png",
@@ -313,6 +344,7 @@
     }
   },
   "gains_boros": {
+    "id": "gains_boros",
     "name": "Gains Boros",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/4d/Sprite-Gains.png",
@@ -323,6 +355,7 @@
     }
   },
   "mask_of_the_red_death": {
+    "id": "mask_of_the_red_death",
     "name": "Mask of the Red Death",
     "category": "secret",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/e/ee/Sprite-Red_Death.png",
