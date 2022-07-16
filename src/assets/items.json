@@ -1,85 +1,106 @@
 {
   "spinach": {
+    "id": "spinach",
     "name": "Spinach",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/96/Sprite-Spinach.png"
   },
   "armor": {
+    "id": "armor",
     "name": "Armor",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c5/Sprite-Armor.png"
   },
   "hollow_heart": {
+    "id": "hollow_heart",
     "name": "Hollow Heart",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/45/Sprite-Hollow_Heart.png"
   },
   "pummarola": {
+    "id": "pummarola",
     "name": "Pummarola",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/52/Sprite-Pummarola.png"
   },
   "empty_tome": {
+    "id": "empty_tome",
     "name": "Empty Tome",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/42/Sprite-Empty_Tome.png"
   },
   "candelabrador": {
+    "id": "candelabrador",
     "name": "Candelabrador",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Candelabrador.png"
   },
   "bracer": {
+    "id": "bracer",
     "name": "Bracer",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f2/Sprite-Bracer.png"
   },
   "spellbinder": {
+    "id": "spellbinder",
     "name": "Spellbinder",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Spellbinder.png"
   },
   "duplicator": {
+    "id": "duplicator",
     "name": "Duplicator",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Duplicator.png"
   },
   "wings": {
+    "id": "wings",
     "name": "Wings",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/6d/Sprite-Wings.png"
   },
   "attractorb": {
+    "id": "attractorb",
     "name": "Attractorb",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Sprite-Attractorb.png"
   },
   "clover": {
+    "id": "clover",
     "name": "Clover",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/ac/Sprite-Clover.png"
   },
   "crown": {
+    "id": "crown",
     "name": "Crown",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/2e/Sprite-Crown.png"
   },
   "stone_mask": {
+    "id": "stone_mask",
     "name": "Stone Mask",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/98/Sprite-Stone_Mask.png"
   },
   "tiragisu": {
+    "id": "tiragisu",
     "name": "Tiragisú",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c1/Sprite-Tiragis%C3%BA.png"
   },
   "skull_o_maniac": {
+    "id": "skull_o_maniac",
     "name": "Skull O'Maniac",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7f/Sprite-Skull_O%27Maniac.png"
   },
   "silver_ring": {
+    "id": "silver_ring",
     "name": "Silver Ring",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/08/Sprite-Silver_Ring.png"
   },
   "gold_ring": {
+    "id": "gold_ring",
     "name": "Gold Ring",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/bf/Sprite-Gold_Ring.png"
   },
   "metaglio_left": {
+    "id": "metaglio_left",
     "name": "Metaglio Left",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Metaglio_Left.png"
   },
   "metaglio_right": {
+    "id": "metaglio_right",
     "name": "Metaglio Right",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/22/Sprite-Metaglio_Right.png"
   },
   "torronas_box": {
+    "id": "torronas_box",
     "name": "Torrona's Box",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/26/Sprite-Torrona%27s_Box.png"
   }
