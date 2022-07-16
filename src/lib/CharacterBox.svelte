@@ -16,6 +16,9 @@
       })
     );
 
+  // if "saved character" is just a string
+  // (set as default if localStorage value did not exist)
+  // replace with valid character object
   if (typeof $selectedCharacter === 'string') {
     const characterId = $selectedCharacter;
     selectedCharacter.set({
@@ -35,11 +38,7 @@
 <div>
   <div
     class="
-    bg-amber-200 border-4 border-amber-400
-    flex flex-col grow-0
-    p-5 ml-5 mt-5
-    w-1/6 h-1/6
-    "
+    bg-amber-200 border-4 border-amber-400 flex flex-col grow-0 p-5 ml-5 mt-5 w-1/6 h-1/6"
   >
     <h1 class="text-2xl">
       {$selectedCharacter.name}
