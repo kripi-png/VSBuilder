@@ -268,19 +268,19 @@
   "vandalier": {
     "id": "vandalier",
     "name": "Vandalier",
-    "category": "unions",
+    "category": "union",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Vandalier.png"
   },
   "phieraggi": {
     "id": "phieraggi",
     "name": "Phieraggi",
-    "category": "unions",
+    "category": "union",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/64/Sprite-Phieraggi.png"
   },
   "fuwalafuwaloo": {
     "id": "fuwalafuwaloo",
     "name": "Fuwalafuwaloo",
-    "category": "unions",
+    "category": "union",
     "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/59/Sprite-Fuwalafuwaloo.png"
   }
 }
