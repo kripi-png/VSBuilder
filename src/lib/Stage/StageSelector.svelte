@@ -10,7 +10,7 @@
 </script>
 
 <div class="modalWrapper">
-  <h1 class="text-3xl font-bold mb-5">Character Selection</h1>
+  <h1 class="text-3xl font-bold mb-5">Stage Selection</h1>
   <div class="flex flex-row flex-wrap gap-2">
     {#each Object.entries($STAGE_DATA) as [id, { name, image }]}
       <div
