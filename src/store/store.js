@@ -1,7 +1,6 @@
 /*
 TODO:
 * allow evolving the starting weapon
-* divide weapons list to base, evolutions, and unions
 * display character's starting weapon in the character list
 
 * special handling for Pugnala Provola's two starting weapons
@@ -9,9 +8,10 @@ TODO:
 * search characters by name or staring weapon
 * when hovering a character, play the walking animation?
 * fix visual errors
+*  - images stage selection list are quite small
 *  - Peppino's too tall
 *  - Items of some stages have weird spacing, or won't fit the box
-*  - images stage selection list are quite small
+* drag & drop to move and swap weapons and items
 */
 
 import { writable, readable } from 'svelte/store';
