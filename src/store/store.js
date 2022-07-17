@@ -16,9 +16,10 @@ TODO:
 
 import { writable } from 'svelte/store';
 
-const storedWeapons = localStorage.selectedWeapons;
-const storedItems = localStorage.selectedItems;
-const storedCharacter = localStorage.selectedCharacter;
+const storedWeapons = localStorage.selectedWeapons ?? '[]';
+const storedItems = localStorage.selectedItems ?? '[]';
+const storedCharacter = localStorage.selectedCharacter ?? '';
+const storedStage = localStorage.selectedStage ?? '{}';
 
 const defaultValue = Array(6).fill(null);
 export const selectedWeapons = writable(
@@ -30,6 +31,9 @@ export const selectedItems = writable(
 export const selectedCharacter = writable(
   storedCharacter ? JSON.parse(storedCharacter) : 'antonio_belpaese'
 );
+export const selectedStage = writable(
+  storedCharacter ? JSON.parse(storedStage) : 'mad_forest'
+);
 
 selectedWeapons.subscribe(
   (value) => (localStorage.selectedWeapons = JSON.stringify(value))
@@ -39,4 +43,7 @@ selectedItems.subscribe(
 );
 selectedCharacter.subscribe(
   (value) => (localStorage.selectedCharacter = JSON.stringify(value))
+);
+selectedStage.subscribe(
+  (value) => (localStorage.selectedStage = JSON.stringify(value))
 );
