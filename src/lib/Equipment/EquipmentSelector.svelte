@@ -1,4 +1,6 @@
 <script>
+  import EquipmentSelectorList from './EquipmentSelectorList.svelte';
+
   export let index = 0;
   export let itemData = {};
   export let isWeapon = true;
@@ -14,32 +16,57 @@
     selectedEquipment.set(newSelectedEquipment);
   };
 
-  $: getEquipmentBoxClass = (id) => {
-    if ($selectedEquipment[index] === id) {
-      return 'bg-green-400 border-green-600';
+  const items = Object.values(itemData);
+  const baseItems = [];
+  const evolutionItems = [];
+  const unionItems = [];
+  items.forEach((item) => {
+    switch (item.category) {
+      case 'base':
+        baseItems.push(item);
+        break;
+      case 'evolution':
+        evolutionItems.push(item);
+        break;
+      case 'union':
+        unionItems.push(item);
+        break;
     }
-    if ($selectedEquipment.includes(id)) {
-      return 'bg-red-400 border-red-600';
-    }
-    return 'bg-amber-200 border-amber-400';
-  };
+  });
 </script>
 
 <div class="modalWrapper">
   <h1 class="text-3xl font-bold mb-5">
     {isWeapon ? 'Weapon' : 'Item'} Slot #{index + 1}
   </h1>
-  <div class="flex flex-row flex-wrap gap-2 ">
-    {#each Object.entries(itemData) as [id, { name, image }]}
-      <div class="border-4 border-solid {getEquipmentBoxClass(id)}">
-        <img
-          on:click={() => selectEquipment(index, id)}
-          src={image}
-          alt={name}
-          width="100"
-          height="100"
-        />
-      </div>
-    {/each}
-  </div>
+  {#if !isWeapon}
+    <EquipmentSelectorList
+      dataList={items}
+      selectionCallback={selectEquipment}
+      {index}
+      {selectedEquipment}
+    />
+  {:else}
+    <EquipmentSelectorList
+      subTitle="Base"
+      dataList={baseItems}
+      selectionCallback={selectEquipment}
+      {index}
+      {selectedEquipment}
+    />
+    <EquipmentSelectorList
+      subTitle="Evolution"
+      dataList={evolutionItems}
+      selectionCallback={selectEquipment}
+      {index}
+      {selectedEquipment}
+    />
+    <EquipmentSelectorList
+      subTitle="Union"
+      dataList={unionItems}
+      selectionCallback={selectEquipment}
+      {index}
+      {selectedEquipment}
+    />
+  {/if}
 </div>
