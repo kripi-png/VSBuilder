@@ -2,7 +2,6 @@
 TODO:
 * allow evolving the starting weapon
 * divide weapons list to base, evolutions, and unions
-* toggle button for showing/hiding secret characters
 * display character's starting weapon in the character list
 
 * special handling for Pugnala Provola's two starting weapons
@@ -12,6 +11,7 @@ TODO:
 * fix visual errors
 *  - Peppino's too tall
 *  - Items of some stages have weird spacing, or won't fit the box
+*  - images stage selection list are quite small
 */
 
 import { writable, readable } from 'svelte/store';
@@ -24,6 +24,7 @@ const storedItems = JSON.parse(localStorage.selectedItems || null);
 const storedStage = JSON.parse(localStorage.selectedStage || null);
 const storedWeapons = JSON.parse(localStorage.selectedWeapons || null);
 const storedCharacter = JSON.parse(localStorage.selectedCharacter || null);
+const storedUserSettings = JSON.parse(localStorage.userSettings || null);
 
 const DEFAULT = {
   char: characterData['antonio_belpaese'],
@@ -34,6 +35,11 @@ export const selectedItems = writable(storedItems || DEFAULT.equipment);
 export const selectedWeapons = writable(storedWeapons || DEFAULT.equipment);
 export const selectedStage = writable(storedStage || DEFAULT.stage);
 export const selectedCharacter = writable(storedCharacter || DEFAULT.char);
+export const userSettings = writable(
+  storedUserSettings || {
+    showSecretCharacters: false,
+  }
+);
 
 const setSubscriber = (key, storeEntry) =>
   storeEntry.subscribe((value) =>
@@ -44,6 +50,7 @@ setSubscriber('selectedWeapons', selectedWeapons);
 setSubscriber('selectedItems', selectedItems);
 setSubscriber('selectedCharacter', selectedCharacter);
 setSubscriber('selectedStage', selectedStage);
+setSubscriber('userSettings', userSettings);
 
 export const ITEM_DATA = readable(itemData);
 export const STAGE_DATA = readable(stageData);
