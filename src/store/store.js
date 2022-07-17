@@ -1,7 +1,6 @@
 /*
 TODO:
-* prevent changing the starting weapon (1st slot)
-*  - only allow evolving the weapon
+* allow evolving the starting weapon
 * divide weapons list to base, evolutions, and unions
 * toggle button for showing/hiding secret characters
 * display character's starting weapon in the character list
