@@ -8,12 +8,18 @@
   const selectCharacter = (characterId) => {
     // cancel if character is already selected
     if ($selectedCharacter.id === characterId) return;
-    // save selection
+    // save character selection
     selectedCharacter.set($CHARACTER_DATA[characterId]);
-    const newWeapons = [...$selectedWeapons];
+
+    const weaponList = [...$selectedWeapons];
+    const startingWeaponId = $selectedCharacter.startingWeapon.id;
     // set starter weapon
-    newWeapons[0] = $selectedCharacter.startingWeapon.id;
-    selectedWeapons.set(newWeapons);
+    weaponList[0] = startingWeaponId;
+    // remove previous instances of the starting weapon
+    const lastIndex = weaponList.lastIndexOf(startingWeaponId);
+    if (lastIndex !== 0) weaponList[lastIndex] = null;
+    // save edited weapon list
+    selectedWeapons.set(weaponList);
   };
 </script>
 
