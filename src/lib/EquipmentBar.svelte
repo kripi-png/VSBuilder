@@ -27,7 +27,10 @@
     {#each $selectedWeapons as weapon, index}
       <div
         class="item bg-amber-200 w-24 h-24 border-4 border-solid border-amber-400"
-        on:click={() => showModal(index, $WEAPON_DATA, selectedWeapons)}
+        class:bg-gray-200={index === 0}
+        class:border-gray-400={index === 0}
+        on:click={() =>
+          index !== 0 && showModal(index, $WEAPON_DATA, selectedWeapons)}
       >
         <img
           src={$WEAPON_DATA[weapon]?.image}
