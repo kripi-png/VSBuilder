@@ -34,18 +34,15 @@ export const selectedCharacter = writable(
   storedCharacter || characterData['antonio_belpaese']
 );
 
-selectedWeapons.subscribe(
-  (value) => (localStorage.selectedWeapons = JSON.stringify(value))
-);
-selectedItems.subscribe(
-  (value) => (localStorage.selectedItems = JSON.stringify(value))
-);
-selectedCharacter.subscribe(
-  (value) => (localStorage.selectedCharacter = JSON.stringify(value))
-);
-selectedStage.subscribe(
-  (value) => (localStorage.selectedStage = JSON.stringify(value))
-);
+const setSubscriber = (key, storeEntry) =>
+  storeEntry.subscribe((value) =>
+    localStorage.setItem(key, JSON.stringify(value))
+  );
+
+setSubscriber('selectedWeapons', selectedWeapons);
+setSubscriber('selectedItems', selectedItems);
+setSubscriber('selectedCharacter', selectedCharacter);
+setSubscriber('selectedStage', selectedStage);
 
 export const ITEM_DATA = readable(itemData);
 export const STAGE_DATA = readable(stageData);
