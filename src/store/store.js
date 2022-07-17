@@ -1,6 +1,5 @@
 /*
 TODO:
-* Stage Box
 * Stage Selection
 * import and export all data in store
 *   - default character and stage to an object instead of a string
@@ -8,9 +7,11 @@ TODO:
 *  - only allow evolving the weapon
 * divide weapons list to base, evolutions, and unions
 * toggle button for showing/hiding secret characters
+* display character's starting weapon in the character list
 
 * special handling for Pugnala Provola's two starting weapons
 
+* search characters by name or staring weapon
 * when hovering a character, play the walking animation?
 */
 
