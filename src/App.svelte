@@ -1,7 +1,7 @@
 <script>
-  import StageBox from './lib/StageBox.svelte';
-  import EquipmentBar from './lib/EquipmentBar.svelte';
-  import CharacterBox from './lib/CharacterBox.svelte';
+  import StageBox from './lib/Stage/StageBox.svelte';
+  import EquipmentBar from './lib/Equipment/EquipmentBar.svelte';
+  import CharacterBox from './lib/Character/CharacterBox.svelte';
 </script>
 
 <main>
