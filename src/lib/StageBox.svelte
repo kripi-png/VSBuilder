@@ -4,21 +4,11 @@
 
   import StageItemGrid from './StageItemGrid.svelte';
   import StageSelector from './StageSelector.svelte';
-  import STAGE_DATA from '/src/assets/stages.json';
 
-  import { selectedStage } from '/src/store/store.js';
+  import { STAGE_DATA, selectedStage } from '/src/store/store.js';
 
   const modal = writable(null);
-  const showModal = () =>
-    modal.set(
-      bind(StageSelector, {
-        selectedStage,
-      })
-    );
-
-  if (typeof $selectedStage === 'string') {
-    selectedStage.set(STAGE_DATA[$selectedStage]);
-  }
+  const showModal = () => modal.set(bind(StageSelector));
 </script>
 
 <div class="bg-amber-200 border-0 border-amber-400 mx-5 mt-5 w-2/5 h-[246px]">
