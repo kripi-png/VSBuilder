@@ -26,13 +26,15 @@ const storedStage = JSON.parse(localStorage.selectedStage || null);
 const storedWeapons = JSON.parse(localStorage.selectedWeapons || null);
 const storedCharacter = JSON.parse(localStorage.selectedCharacter || null);
 
-const defaultValue = Array(6).fill(null);
-export const selectedItems = writable(storedItems || defaultValue);
-export const selectedStage = writable(storedStage || stageData['mad_forest']);
-export const selectedWeapons = writable(storedWeapons || defaultValue);
-export const selectedCharacter = writable(
-  storedCharacter || characterData['antonio_belpaese']
-);
+const DEFAULT = {
+  char: characterData['antonio_belpaese'],
+  stage: stageData['mad_forest'],
+  equipment: Array(6).fill(null),
+};
+export const selectedItems = writable(storedItems || DEFAULT.equipment);
+export const selectedWeapons = writable(storedWeapons || DEFAULT.equipment);
+export const selectedStage = writable(storedStage || DEFAULT.stage);
+export const selectedCharacter = writable(storedCharacter || DEFAULT.char);
 
 const setSubscriber = (key, storeEntry) =>
   storeEntry.subscribe((value) =>
