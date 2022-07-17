@@ -8,7 +8,7 @@
 >
   {#each stageItems as stageItem}
     <img
-      class="bg-amber-100/75 rounded w-24 h-24"
+      class="drop-shadow-md bg-amber-100/75 rounded w-24 h-24"
       src={stageItem.image}
       alt={stageItem.name}
       width="96"
