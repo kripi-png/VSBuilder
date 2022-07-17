@@ -52,7 +52,7 @@
       />
 
       <img
-        class="absolute -right-3 -bottom-3 p-2 bg-amber-100/75 rounded"
+        class="absolute -right-3 -bottom-3 p-2 drop-shadow-md bg-amber-100/75 rounded"
         src={$selectedCharacter.startingWeapon.image}
         alt={$selectedCharacter.startingWeapon.name}
         width="100"
