@@ -12,11 +12,12 @@
   } from '/src/store/store.js';
 
   const modal = writable(null);
-  const showModal = (index, itemData, selectedEquipment) =>
+  const showModal = (index, itemData, isWeapon = true, selectedEquipment) =>
     modal.set(
       bind(EquipmentSelector, {
-        itemData,
         index,
+        itemData,
+        isWeapon,
         selectedEquipment,
       })
     );
@@ -30,7 +31,7 @@
         class:bg-gray-200={index === 0}
         class:border-gray-400={index === 0}
         on:click={() =>
-          index !== 0 && showModal(index, $WEAPON_DATA, selectedWeapons)}
+          index !== 0 && showModal(index, $WEAPON_DATA, true, selectedWeapons)}
       >
         <img
           src={$WEAPON_DATA[weapon]?.image}
@@ -44,7 +45,7 @@
     {#each $selectedItems as item, index}
       <div
         class="item bg-amber-200 w-24 h-24 border-4 border-solid border-amber-400"
-        on:click={() => showModal(index, $ITEM_DATA, selectedItems)}
+        on:click={() => showModal(index, $ITEM_DATA, false, selectedItems)}
       >
         <img src={$ITEM_DATA[item]?.image} alt={$ITEM_DATA[item]?.name} />
       </div>
