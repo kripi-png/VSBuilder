@@ -2,6 +2,8 @@
   import { writable } from 'svelte/store';
   import Modal, { bind } from 'svelte-simple-modal';
 
+  import StageItemGrid from './StageItemGrid.svelte';
+
   import STAGE_DATA from '/src/assets/stages.json';
 
   import { selectedStage } from '/src/store/store.js';
@@ -11,27 +13,19 @@
   }
 </script>
 
-<div>
-  <div
-    class="
-    bg-amber-200 border-4 border-amber-400 flex flex-col grow-0 p-5 ml-5 mt-5 w-1/6 h-1/6"
-  >
-    <h1 class="text-2xl">
-      {$selectedStage.name}
-    </h1>
-    <div class="flex flex-row">
-      <img
-        class="flex-1"
-        src={$selectedStage.image}
-        alt={$selectedStage.name}
-        width="200"
-      />
+<div class="bg-amber-200 border-0 border-amber-400 mx-5 mt-5 w-2/5 h-[246px]">
+  <h1 class="text-2xl">
+    {$selectedStage.name}
+  </h1>
+  <div class="flex flex-row h-full">
+    <img
+      class="h-fit"
+      src={$selectedStage.image}
+      alt={$selectedStage.name}
+      width="400"
+      height="246"
+    />
 
-      <div class="flex flex-col">
-        <!-- {#each $selectedStage?.stageItems as stageItem}
-          <img src={stageItem.image} alt={stageItem.name} />
-        {/each} -->
-      </div>
-    </div>
+    <StageItemGrid stageItems={Object.values($selectedStage?.stageItems)} />
   </div>
 </div>
