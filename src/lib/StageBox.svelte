@@ -3,10 +3,18 @@
   import Modal, { bind } from 'svelte-simple-modal';
 
   import StageItemGrid from './StageItemGrid.svelte';
-
+  import StageSelector from './StageSelector.svelte';
   import STAGE_DATA from '/src/assets/stages.json';
 
   import { selectedStage } from '/src/store/store.js';
+
+  const modal = writable(null);
+  const showModal = () =>
+    modal.set(
+      bind(StageSelector, {
+        selectedStage,
+      })
+    );
 
   if (typeof $selectedStage === 'string') {
     selectedStage.set(STAGE_DATA[$selectedStage]);
@@ -19,6 +27,7 @@
   </h1>
   <div class="flex flex-row h-full">
     <img
+      on:click={showModal}
       class="h-fit"
       src={$selectedStage.image}
       alt={$selectedStage.name}
@@ -28,4 +37,6 @@
 
     <StageItemGrid stageItems={Object.values($selectedStage?.stageItems)} />
   </div>
+
+  <Modal show={$modal} />
 </div>
