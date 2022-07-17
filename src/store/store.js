@@ -10,6 +10,9 @@ TODO:
 
 * search characters by name or staring weapon
 * when hovering a character, play the walking animation?
+* fix visual errors
+*  - Peppino's too tall
+*  - Items of some stages have weird spacing, or won't fit the box
 */
 
 import { writable, readable } from 'svelte/store';
