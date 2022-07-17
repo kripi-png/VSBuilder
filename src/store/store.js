@@ -1,3 +1,19 @@
+/*
+TODO:
+* Stage Box
+* Stage Selection
+* import and export all data in store
+*   - default character and stage to an object instead of a string
+* prevent changing the starting weapon (1st slot)
+*  - only allow evolving the weapon
+* divide weapons list to base, evolutions, and unions
+* toggle button for showing/hiding secret characters
+
+* special handling for Pugnala Provola's two starting weapons
+
+* when hovering a character, play the walking animation?
+*/
+
 import { writable } from 'svelte/store';
 
 const storedWeapons = localStorage.selectedWeapons;
