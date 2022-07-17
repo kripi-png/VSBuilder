@@ -1,0 +1,231 @@
+{
+  "mad_forest": {
+    "name": "",
+    "id": "mad_forest",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/9b/Stage-Mad_Forest.png",
+    "stageItems": {
+      "spinach": {
+        "id": "spinach",
+        "name": "Spinach",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/96/Sprite-Spinach.png"
+      },
+      "clover": {
+        "id": "clover",
+        "name": "Clover",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/ac/Sprite-Clover.png"
+      },
+      "hollow_heart": {
+        "id": "hollow_heart",
+        "name": "Hollow Heart",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/45/Sprite-Hollow_Heart.png"
+      },
+      "pummarola": {
+        "id": "pummarola",
+        "name": "Pummarola",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/52/Sprite-Pummarola.png"
+      },
+      "skull_o_maniac": {
+        "id": "skull_o_maniac",
+        "name": "Skull O'Maniac",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7f/Sprite-Skull_O%27Maniac.png"
+      }
+    }
+  },
+  "inlaid_library": {
+    "name": "",
+    "id": "inlaid_library",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/b/b8/Stage-Inlaid_Library.png",
+    "stageItems": {
+      "empty_tome": {
+        "id": "empty_tome",
+        "name": "Empty Tome",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/42/Sprite-Empty_Tome.png"
+      },
+      "stone_mask": {
+        "id": "stone_mask",
+        "name": "Stone Mask",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/98/Sprite-Stone_Mask.png"
+      }
+    }
+  },
+  "dairy_plant": {
+    "name": "",
+    "id": "dairy_plant",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/d0/Stage-Dairy_Plant.png",
+    "stageItems": {
+      "attractorb": {
+        "id": "attractorb",
+        "name": "Attractorb",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Sprite-Attractorb.png"
+      },
+      "armor": {
+        "id": "armor",
+        "name": "Armor",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c5/Sprite-Armor.png"
+      },
+      "wings": {
+        "id": "wings",
+        "name": "Wings",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/6d/Sprite-Wings.png"
+      },
+      "candelabrador": {
+        "id": "candelabrador",
+        "name": "Candelabrador",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Candelabrador.png"
+      }
+    }
+  },
+  "gallo_tower": {
+    "name": "",
+    "id": "gallo_tower",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/a8/Stage-Gallo_Tower.png",
+    "stageItems": {
+      "bracer": {
+        "id": "bracer",
+        "name": "Bracer",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f2/Sprite-Bracer.png"
+      },
+      "spellbinder": {
+        "id": "spellbinder",
+        "name": "Spellbinder",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Spellbinder.png"
+      }
+    }
+  },
+  "cappella_magna": {
+    "name": "",
+    "id": "cappella_magna",
+    "category": "base",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/12/Stage-Cappella_Magna.png",
+    "stageItems": {
+      "crown": {
+        "id": "crown",
+        "name": "Crown",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/2e/Sprite-Crown.png"
+      },
+      "tiragisu": {
+        "id": "tiragisu",
+        "name": "Tiragisú",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c1/Sprite-Tiragis%C3%BA.png"
+      },
+      "duplicator": {
+        "id": "duplicator",
+        "name": "Duplicator",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Duplicator.png"
+      }
+    }
+  },
+  "il_molise": {
+    "name": "",
+    "id": "il_molise",
+    "category": "bonus",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/d/dd/Stage-Il_Molise.png",
+    "stageItems": {}
+  },
+  "moongolow": {
+    "name": "",
+    "id": "moongolow",
+    "category": "bonus",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/1/14/Stage-Moongolow.png",
+    "stageItems": {
+      "hollow_heart": {
+        "id": "hollow_heart",
+        "name": "Hollow Heart",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/45/Sprite-Hollow_Heart.png"
+      },
+      "pummarola": {
+        "id": "pummarola",
+        "name": "Pummarola",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/5/52/Sprite-Pummarola.png"
+      },
+      "armor": {
+        "id": "armor",
+        "name": "Armor",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c5/Sprite-Armor.png"
+      },
+      "wings": {
+        "id": "wings",
+        "name": "Wings",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/6/6d/Sprite-Wings.png"
+      },
+      "spinach": {
+        "id": "spinach",
+        "name": "Spinach",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/96/Sprite-Spinach.png"
+      },
+      "bracer": {
+        "id": "bracer",
+        "name": "Bracer",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/f/f2/Sprite-Bracer.png"
+      },
+      "spellbinder": {
+        "id": "spellbinder",
+        "name": "Spellbinder",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/3/34/Sprite-Spellbinder.png"
+      },
+      "candelabrador": {
+        "id": "candelabrador",
+        "name": "Candelabrador",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/8/83/Sprite-Candelabrador.png"
+      },
+      "empty_tome": {
+        "id": "empty_tome",
+        "name": "Empty Tome",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/4/42/Sprite-Empty_Tome.png"
+      },
+      "duplicator": {
+        "id": "duplicator",
+        "name": "Duplicator",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/92/Sprite-Duplicator.png"
+      },
+      "tiragisu": {
+        "id": "tiragisu",
+        "name": "Tiragisú",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/c/c1/Sprite-Tiragis%C3%BA.png"
+      },
+      "attractorb": {
+        "id": "attractorb",
+        "name": "Attractorb",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Sprite-Attractorb.png"
+      },
+      "clover": {
+        "id": "clover",
+        "name": "Clover",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/ac/Sprite-Clover.png"
+      },
+      "crown": {
+        "id": "crown",
+        "name": "Crown",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/2/2e/Sprite-Crown.png"
+      },
+      "stone_mask": {
+        "id": "stone_mask",
+        "name": "Stone Mask",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/9/98/Sprite-Stone_Mask.png"
+      },
+      "skull_o_maniac": {
+        "id": "skull_o_maniac",
+        "name": "Skull O'Maniac",
+        "image": "https://static.wikia.nocookie.net/vampire-survivors/images/7/7f/Sprite-Skull_O%27Maniac.png"
+      }
+    }
+  },
+  "green_acres": {
+    "name": "",
+    "id": "green_acres",
+    "category": "challenge",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/a/a8/Stage-Green_Acres.png",
+    "stageItems": {}
+  },
+  "the_bone_zone": {
+    "name": "",
+    "id": "the_bone_zone",
+    "category": "challenge",
+    "image": "https://static.wikia.nocookie.net/vampire-survivors/images/0/0f/Stage-The_Bone_Zone.png",
+    "stageItems": {}
+  }
+}
