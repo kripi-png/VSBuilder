@@ -1,6 +1,5 @@
 <script>
   export let stageItems = [];
-  console.log(stageItems);
 </script>
 
 <div class="flex flex-col flex-wrap justify-between content-between p-5 flex-1">
