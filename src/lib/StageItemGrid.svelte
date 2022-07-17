@@ -3,9 +3,7 @@
   console.log(stageItems);
 </script>
 
-<div
-  class="flex flex-col flex-wrap justify-between align-between gap-5 p-3 flex-1"
->
+<div class="flex flex-col flex-wrap justify-between content-between p-5 flex-1">
   {#each stageItems as stageItem}
     <img
       class="drop-shadow-md bg-amber-100/75 rounded w-24 h-24"
