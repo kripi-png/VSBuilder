@@ -3,29 +3,16 @@
   import Modal, { bind } from 'svelte-simple-modal';
 
   import CharacterSelector from './CharacterSelector.svelte';
-  import WEAPON_DATA from '/src/assets/weapons.json';
-  import CHARACTER_DATA from '/src/assets/characters.json';
 
-  import { selectedCharacter, selectedWeapons } from '/src/store/store.js';
+  import {
+    WEAPON_DATA,
+    CHARACTER_DATA,
+    selectedWeapons,
+    selectedCharacter,
+  } from '/src/store/store.js';
 
   const modal = writable(null);
-  const showModal = () =>
-    modal.set(
-      bind(CharacterSelector, {
-        selectedCharacter,
-      })
-    );
-
-  // if "saved character" is just a string
-  // (set as default if localStorage value did not exist)
-  // replace with valid character object
-  if (typeof $selectedCharacter === 'string') {
-    const characterId = $selectedCharacter;
-    selectedCharacter.set({
-      ...CHARACTER_DATA[characterId],
-      id: characterId,
-    });
-  }
+  const showModal = () => modal.set(bind(CharacterSelector));
 
   // set starter weapon
   if (selectedWeapons[0] !== $selectedCharacter.startingWeapon.id) {

@@ -1,20 +1,18 @@
 <script>
-  import STAGE_DATA from '/src/assets/stages.json';
-
-  export let selectedStage = {};
+  import { STAGE_DATA, selectedStage } from '/src/store/store.js';
 
   const selectStage = (stageId) => {
     // cancel if character is already selected
     if ($selectedStage.id === stageId) return;
     // save selection
-    selectedStage.set(STAGE_DATA[stageId]);
+    selectedStage.set($STAGE_DATA[stageId]);
   };
 </script>
 
 <div class="modalWrapper">
   <h1 class="text-3xl font-bold mb-5">Character Selection</h1>
   <div class="flex flex-row flex-wrap gap-2">
-    {#each Object.entries(STAGE_DATA) as [id, { name, image }]}
+    {#each Object.entries($STAGE_DATA) as [id, { name, image }]}
       <div
         class="border-4 border-solid
         {$selectedStage.id === id

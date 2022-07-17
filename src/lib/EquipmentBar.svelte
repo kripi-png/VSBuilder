@@ -3,10 +3,13 @@
   import Modal, { bind } from 'svelte-simple-modal';
 
   import EquipmentSelector from './EquipmentSelector.svelte';
-  import WEAPON_DATA from '/src/assets/weapons.json';
-  import ITEM_DATA from '/src/assets/items.json';
 
-  import { selectedWeapons, selectedItems } from '/src/store/store.js';
+  import {
+    ITEM_DATA,
+    WEAPON_DATA,
+    selectedItems,
+    selectedWeapons,
+  } from '/src/store/store.js';
 
   const modal = writable(null);
   const showModal = (index, itemData, selectedEquipment) =>
@@ -24,9 +27,12 @@
     {#each $selectedWeapons as weapon, index}
       <div
         class="item bg-amber-200 w-24 h-24 border-4 border-solid border-amber-400"
-        on:click={() => showModal(index, WEAPON_DATA, selectedWeapons)}
+        on:click={() => showModal(index, $WEAPON_DATA, selectedWeapons)}
       >
-        <img src={WEAPON_DATA[weapon]?.image} alt={WEAPON_DATA[weapon]?.name} />
+        <img
+          src={$WEAPON_DATA[weapon]?.image}
+          alt={$WEAPON_DATA[weapon]?.name}
+        />
       </div>
     {/each}
   </div>
@@ -35,9 +41,9 @@
     {#each $selectedItems as item, index}
       <div
         class="item bg-amber-200 w-24 h-24 border-4 border-solid border-amber-400"
-        on:click={() => showModal(index, ITEM_DATA, selectedItems)}
+        on:click={() => showModal(index, $ITEM_DATA, selectedItems)}
       >
-        <img src={ITEM_DATA[item]?.image} alt={ITEM_DATA[item]?.name} />
+        <img src={$ITEM_DATA[item]?.image} alt={$ITEM_DATA[item]?.name} />
       </div>
     {/each}
   </div>
