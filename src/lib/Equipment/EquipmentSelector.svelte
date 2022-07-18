@@ -17,23 +17,13 @@
     selectedEquipment.set(newSelectedEquipment);
   };
 
-  const items = Object.values(itemData);
-  const baseItems = [];
-  const evolutionItems = [];
-  const unionItems = [];
-  items.forEach((item) => {
-    switch (item.category) {
-      case 'base':
-        baseItems.push(item);
-        break;
-      case 'evolution':
-        evolutionItems.push(item);
-        break;
-      case 'union':
-        unionItems.push(item);
-        break;
-    }
-  });
+  const items = Object.values(itemData),
+    grouped = [];
+  isWeapon &&
+    items.forEach(function (weapon) {
+      this[weapon.category] || grouped.push((this[weapon.category] = []));
+      this[weapon.category].push(weapon);
+    }, Object.create(null));
 </script>
 
 <div class="modalWrapper">
@@ -58,7 +48,7 @@
       <TabPanel>
         <EquipmentSelectorList
           subTitle="Base"
-          dataList={baseItems}
+          dataList={grouped[0]}
           selectionCallback={selectEquipment}
           {index}
           {selectedEquipment}
@@ -67,7 +57,7 @@
       <TabPanel>
         <EquipmentSelectorList
           subTitle="Evolution"
-          dataList={evolutionItems}
+          dataList={grouped[1]}
           selectionCallback={selectEquipment}
           {index}
           {selectedEquipment}
@@ -76,7 +66,7 @@
       <TabPanel>
         <EquipmentSelectorList
           subTitle="Union"
-          dataList={unionItems}
+          dataList={grouped[2]}
           selectionCallback={selectEquipment}
           {index}
           {selectedEquipment}
