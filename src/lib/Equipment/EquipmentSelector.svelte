@@ -1,4 +1,5 @@
 <script>
+  import { Tabs, Tab, TabList, TabPanel } from 'svelte-tabs';
   import EquipmentSelectorList from './EquipmentSelectorList.svelte';
 
   export let index = 0;
@@ -47,26 +48,40 @@
       {selectedEquipment}
     />
   {:else}
-    <EquipmentSelectorList
-      subTitle="Base"
-      dataList={baseItems}
-      selectionCallback={selectEquipment}
-      {index}
-      {selectedEquipment}
-    />
-    <EquipmentSelectorList
-      subTitle="Evolution"
-      dataList={evolutionItems}
-      selectionCallback={selectEquipment}
-      {index}
-      {selectedEquipment}
-    />
-    <EquipmentSelectorList
-      subTitle="Union"
-      dataList={unionItems}
-      selectionCallback={selectEquipment}
-      {index}
-      {selectedEquipment}
-    />
+    <Tabs>
+      <TabList>
+        <Tab>Base</Tab>
+        <Tab>Evolution</Tab>
+        <Tab>Union</Tab>
+      </TabList>
+
+      <TabPanel>
+        <EquipmentSelectorList
+          subTitle="Base"
+          dataList={baseItems}
+          selectionCallback={selectEquipment}
+          {index}
+          {selectedEquipment}
+        />,
+      </TabPanel>
+      <TabPanel>
+        <EquipmentSelectorList
+          subTitle="Evolution"
+          dataList={evolutionItems}
+          selectionCallback={selectEquipment}
+          {index}
+          {selectedEquipment}
+        />,
+      </TabPanel>
+      <TabPanel>
+        <EquipmentSelectorList
+          subTitle="Union"
+          dataList={unionItems}
+          selectionCallback={selectEquipment}
+          {index}
+          {selectedEquipment}
+        />
+      </TabPanel>
+    </Tabs>
   {/if}
 </div>
